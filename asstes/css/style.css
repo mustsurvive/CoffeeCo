@@ -1,0 +1,224 @@
+/* Exo', sans-serif */
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Special+Elite&display=swap");
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Special Elite', sans-serif;
+}
+section{
+    min-width: 100vw;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 50px;
+  margin-left: auto;
+}
+header{
+  text-align: right;
+  padding: ;
+}
+header a:hover{
+  text-decoration: underline;
+}
+header a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Special Elite;
+  font-weight: ;
+}
+.sect1{
+  background-image: url(../imgs/bg.jpeg);
+  
+}
+.logo{
+  top: 50%;
+  margin-top: 20%;
+  max-width: 70%;
+}
+.sect2{
+  background-image: url(../imgs/beans_icon.png);
+  min-height: 80vh;
+}
+.padding-24{
+  padding: 24vh 0 0 9vh;
+}
+.sect3{
+  background: url(../imgs/bridge_1.jpg) center/cover no-repeat;
+  min-height: 50vh; 
+  background-attachment: fixed;
+}
+.sect4{
+  background-image: url(../imgs/cake_icon.png);
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: cover;
+  padding-bottom: 30px;
+}
+.sect5{
+  background: url(../imgs/bridge_2.jpg)
+  center/cover no-repeat;
+  min-height: 50vh; 
+  background-attachment: fixed;
+}
+.sect6{
+  min-height: 40vh;
+
+}
+.sect7{
+  background: url(../imgs/bridge_3.jpg)
+  center/cover no-repeat;
+  min-height: 50vh; 
+  background-attachment: fixed;
+}
+.sect8{
+  background-image: url(../imgs/pie_icon.png);
+  min-height: 40vh;
+}
+.sect9{
+  background: url(../imgs/bridge_4.jpeg)
+  center/cover no-repeat;
+  min-height: 50vh; 
+  background-attachment: fixed;
+}
+.sect10{
+  background-image: url(../imgs/muffin_icon.png);
+  min-height: 40vh;
+}
+footer{
+  background-color: black;
+  min-height: 20vh;
+}
+
+.p1{
+  width: 48vw;
+  padding-top: 1rem;
+}
+h1,h2,h3{
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1{
+  font-size: 50px;
+}
+
+
+.sect4 .container {
+  width: 30%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.sect4 .border {
+border: solid 1px rgb(100, 100, 100);
+min-height: 50px;
+margin: 10px 0;
+padding:10px;
+}
+
+.sect4 .container {
+  text-align: center;
+}
+
+.toast-icon {
+  width:50px;
+}
+
+.sect4 .header .url {
+  margin-bottom: 30px;
+}
+
+.sect4 .header .url a {
+color:black;
+text-decoration: none;
+}
+
+.sect4 .header .url a:hover {
+  text-decoration: underline;
+  }
+
+  .sect6 .container,.sect8 .container, .sect10 .container {
+    display:flex;
+    min-height: 100px;
+  }
+
+  .sect6 .container .column, .sect8 .container .column, .sect10 .container .column {
+    position:relative;
+    flex:1;
+    width: 50%;
+  }
+
+  .sect6 .container .column .story {
+    float: right;
+  }
+
+
+  .sect6 .container .column .inner-div,  .sect8 .container .column .inner-div, .sect10 .container .column .inner-div {
+    margin: 15px 15px;
+    width: 50%;
+  }
+
+  .sect6 .container .column .story-img {
+    margin-bottom: 0 !important;
+    position: absolute;
+    bottom:0;
+    
+  }
+
+  .sect6 .container .column .story-img img, .sect8 .container .column .story-img img, .sect10 .container .column .story-img img {
+    width: 80%;
+  }
+
+  /* .sect8 .container .column .story-img, .sect10 .container .column .story-img {
+    margin-bottom: 0 !important;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    text-align: right;
+  } */
+
+  .sect8 .container .column .story-img img, .sect10 .container .column .story-img img {
+    width: 80%;
+  }
+
+  .coffee-button {
+    margin-top:15px;
+    padding: 5px;
+  }
+
+  .footer-div h3 {
+    text-transform: capitalize;
+  }
+
+  .footer-div {
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+  }
+
+  .footer-div p{
+font-size: 12px;;
+  }
+
+  .footer-div .icon {
+    width: 30px;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer-div .today {
+    width: 80px;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+  }
